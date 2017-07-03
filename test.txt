@@ -1,0 +1,74 @@
+chars : 1文字ずつ取り出す。Ruby 1.8.7
+chomp, chomp! : 末尾の改行を取り除く。
+chop, chop! : 末尾の文字を取り除く。
+chr : 最初の文字を取り出す。Ruby 1.9
+clear : 文字列を空にする。Ruby 1.9
+codepoints : 1文字ずつコードポイントを取り出す。Ruby 1.9
+concat : 文字列の追加。
+count : 文字列中の特定の文字を数える。
+crypt : 暗号化。
+delete, delete! : 文字列中の特定の文字を削除。
+downcase, downcase! : 大文字を小文字にする。
+dump : 表示できない文字をバックスラッシュ記法に置き換える。
+each : 1行ずつ取り出す。Ruby 1.9
+each_byte : 1バイトずつ取り出す。
+each_char : 1文字ずつ取り出す。Ruby 1.8.7
+each_codepoint : 1文字ずつコードポイントを取り出す。Ruby 1.9
+each_line : 1行ずつ取り出す。
+empty? : 空文字列か調べる。
+encode, encode! : 文字コードの変換。Ruby 1.9
+encoding : 文字コード情報を得る。Ruby 1.9
+end_with? : 指定の文字列で終わっているか調べる。Ruby 1.8.7
+eql? : ハッシュのキーとして同じかどうか調べる。
+force_encoding : 文字コード情報の変更。Ruby 1.9
+getbyte : バイトの取り出し。Ruby 1.9
+gsub, gsub! : 正規表現を使って繰り返し置換。
+hash : ハッシュ値を得る。
+hex : 16進数を整数に変換。
+include? : 部分文字列が含まれているか調べる。
+index : 部分文字列の位置を調べる。
+insert : 指定の位置に文字列を挿入。
+inspect : 読みやすい形式で表示。
+intern : シンボルを返す。
+length : 文字数（バイト数）を返す。
+lines : 1行ずつ取り出す。Ruby 1.8.7
+ljust : 左寄せ。
+lstrip, lstrip! : 先頭の空白を取り除く。
+match : 正規表現のマッチ。
+next, next! : 「次の文字列」を作る。
+oct : 8進数を整数に変換。
+ord : 最初の文字のコードポイントを返す。Ruby 1.9
+partition : 部分文字列で2つに分割。Ruby 1.8.7
+replace : 文字列を変更する。
+reverse, reverse! : 文字列の反転。
+rindex : 末尾から部分文字列の位置を調べる。
+rjust : 右寄せ。
+rpartition : 末尾から部分文字列で2つに分割。Ruby 1.8.7
+rstrip, rstrip! : 末尾の空白を取り除く。
+scan : パターンにマッチする部分を繰り返し取り出す。
+setbyte : 指定の位置のバイトを変更。Ruby 1.9
+size : 文字数（バイト数）を返す。
+slice : 部分文字列の取り出し。
+slice! : 部分文字列の削除。
+split : 文字列の分割。
+squeeze, squeeze! : 同じ文字の繰り返しを1つにまとめる。
+start_with? : 指定の文字列で始まっているか調べる。Ruby 1.8.7
+strip, strip! : 先頭と末尾の空白を取り除く。
+sub, sub! : 正規表現を使って一度だけ置換。
+succ, succ! : 「次の文字列」を作る。
+sum : チェックサムの値を返す。
+swapcase, swapcase! : 小文字を大文字に、大文字を小文字に変換。
+to_f : 浮動小数点数に変換。
+to_i : 整数に変換。
+to_s : 自身を返す。
+to_str : 自身を返す。
+to_sym : シンボルを返す。
+tr, tr! : 特定の文字を置換。
+tr_s, tr_s! : 特定の文字を置換して1つにまとめる。
+unpack : バイナリデータを配列に分解。
+upcase, upcase! : 小文字を大文字にする。
+upto : 指定の文字列まで「次の文字列」を繰り返す。
+valid_encoding? : バイト列が文字コードとして正しいか調べる。Ruby 1.9
+このサイトについて 記事の読み方 参考文献
+
+Sponsored by Oiax Inc. / Powered by Ruby on Rails and AmiWiki
